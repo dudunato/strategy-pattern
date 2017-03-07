@@ -14,5 +14,11 @@ var Factory = {
   },
   multiplication: function() {
     Multiplication.do(get('n1'), get('n2'))
+  },
+  time: function() {
+    Time.do(get('n1'), get('n2'))
+  },
+  all: function() {
+    All.do(get('n1'), get('n2'), 'Done!')
   }
 };
