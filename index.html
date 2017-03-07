@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+
+  <div>
+
+    <input id="n1" type="number" placeholder="Number 1">
+    <select id="operation" placeholder="Operation" name="">
+      <option value="addition" selected>+</option>
+      <option value="division">/</option>
+      <option value="multiplication">*</option>
+      <option value="subtraction">-</option>
+    </select>
+    <input id="n2" type="number" placeholder="Number 2">
+    <button onclick="execute()">Go</button>
+
+    <p id="res"></p>
+
+  </div>
+
+  <script src="./js/Operation.js"></script>
+  <script src="./js/operations/Addition.js"></script>
+  <script src="./js/operations/Division.js"></script>
+  <script src="./js/operations/Multiplication.js"></script>
+  <script src="./js/operations/Subtraction.js"></script>
+  <script src="./js/Factory.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
